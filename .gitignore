@@ -38,4 +38,3 @@ Dockerfile
 docker-compose.yml
 .dockerignore
 README.md
-LICENSE
