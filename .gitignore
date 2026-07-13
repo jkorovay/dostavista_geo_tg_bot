@@ -32,8 +32,3 @@ ENV/
 # ===== OS =====
 .DS_Store
 Thumbs.db
-
-# ===== Docker / repo meta (not needed inside the image) =====
-Dockerfile
-docker-compose.yml
-.dockerignore
