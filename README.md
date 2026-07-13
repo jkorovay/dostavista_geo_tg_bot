@@ -1,6 +1,6 @@
 # Dostavista Geo Telegram Bot
 
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@DostavistaGeoBot-2AABEE?style=flat&logo=telegram)](https://t.me/DostavistaGeoBot)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@dostavista_check_bot-2AABEE?style=flat&logo=telegram)](https://t.me/dostavista_check_bot)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![aiogram](https://img.shields.io/badge/aiogram-3.x-005CC5?style=flat&logo=telegram)](https://github.com/aiogram/aiogram)
 [![GraphHopper](https://img.shields.io/badge/GraphHopper-API-009688?style=flat)](https://graphhopper.com/)
@@ -9,8 +9,6 @@
 
 Telegram-бот для курьеров Достависта (и не только), помогающий оценить выгодность заказа перед принятием.
 Бот считает чистую прибыль и часовую ставку с учётом расстояния, времени в пути и затрат на топливо.
-
-> 🤖 **Живой бот:** [@DostavistaGeoBot](https://t.me/DostavistaGeoBot) — можно протестировать расчёт.
 
 ---
 
@@ -224,27 +222,6 @@ pytest tests/ --cov=bot --cov-report=term-missing
 - `test_http.py` — создание клиента, настройки retry
 - `test_fsm.py` — FSM состояния, /start, process_start с локацией
 - `test_logging.py` — ротирующий файл, уровни, JSON форматтер
-
----
-
-## Разработка и доработка
-
-Хотите улучшить? PR welcome!
-
-Идеи для доработки:
-- Сделать Mini App с историей расчётов и графиками
-- Добавить поддержку велосипеда/пешехода (`vehicle=bike`, `foot`)
-- Логирование в файл + ротация (уже есть в коде)
-- Админка / статистика использований
-- Интеграционные тесты с реальным GraphHopper API
-
----
-
-## Связь
-
-- Автор: **Julia Korovay** — Data Analyst / ML Analyst / Chat-bot & Automation developer
-- GitHub: [@jkorovay](https://github.com/jkorovay)
-- Telegram: [@jkorovay](https://t.me/jkorovay)
 
 ---
 
